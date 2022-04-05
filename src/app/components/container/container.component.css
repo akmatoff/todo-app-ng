@@ -1,0 +1,12 @@
+.container {
+    background-color: var(--secondary-color);
+    width: clamp(420px, 50vw, 580px);
+    min-height: 760px;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.todos-container {
+    width: 100%;
+    padding: 15px 0;
+}

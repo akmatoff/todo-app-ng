@@ -1,1 +1,47 @@
-/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+:root {
+    --primary-color: #1b1725;
+    --secondary-color: #221c30;
+    --secondary-accent-color: #2b243b;
+    --accent-color: #673ecf;
+    --text-color: #e4def5;
+    --secondary-text-color: #a288f7;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.App {
+    background-color: var(--primary-color);
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Lato', sans-serif;
+}
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.centered {
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,18 @@
+.add-todo-container {
+    width: 100%;
+    background: linear-gradient(120deg, var(--accent-color) 20%, #7e53eb 60%);
+    border-radius: 10px;
+    padding: 25px 35px;
+}
+
+.add-todo {
+    color: var(--text-color);
+    font-size: 18px;
+    outline: none;
+    border: none;
+    background: none;
+}
+
+.add-todo::placeholder {
+    color: var(--secondary-text-color);
+}
